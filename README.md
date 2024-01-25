@@ -1,3 +1,6 @@
-# TIL
-Today I Learned
-velog url: https://velog.io/@carpediem13/posts
+# ✍Today I Learned
+- 규칙
+1. 1일 1커밋을 목표로 한다.
+2. 의미 없는 커밋은 하지 않는다.
+3. 새롭게 알게 된 점, 개선해야 될 점 위주로 작성한다.
+4. 꾸준히 성실하게 기록할 것!
