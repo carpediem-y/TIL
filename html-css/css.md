@@ -49,7 +49,7 @@ selector { property1: val1; property2: val2; }
 
 #### 2-3. 폰트 적용하기
 
-1. 컴퓨터 기본 폰트
+a. 컴퓨터 기본 폰트
 
 ```
 (body 전체 적용, font1이 없다면 2적용, 2가 없다면 3적용 예시)
@@ -58,8 +58,8 @@ body {
 }
 ```
 
-2. 사용자 지정 폰트 <br>
-   a. 설치한 폰트
+b. 사용자 지정 폰트 <br>
+ㄱ. 설치한 폰트
 
 ```
 <style>
@@ -72,7 +72,7 @@ body {
 </style>
 ```
 
-b. 웹 폰트 (ex.구글)
+ㄴ. 웹 폰트 (ex.구글)
 
 ```
 구글 폰트 사이트에 접속해 폰트를 선택한다
@@ -83,3 +83,12 @@ b. 웹 폰트 (ex.구글)
     @import url('~');
 </style>
 ```
+
+#### 2-4. 텍스트 관련 style
+
+- text-align: 텍스트 정렬
+- line-height: 줄 간격
+- text-decoration: 텍스트 줄 표시
+- text-shadow: 텍스트 그림자 추가
+- text-transform: 대소문자 변환
+- letter-spacing, word-spacing: 글자 간격 조정 (자간 조정은 주로 letter-spacing)
