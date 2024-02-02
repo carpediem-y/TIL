@@ -85,10 +85,32 @@ b. 사용자 지정 폰트 <br>
 ```
 
 #### 2-4. 텍스트 관련 style
-
 - text-align: 텍스트 정렬
 - line-height: 줄 간격
 - text-decoration: 텍스트 줄 표시
 - text-shadow: 텍스트 그림자 추가
 - text-transform: 대소문자 변환
 - letter-spacing, word-spacing: 글자 간격 조정 (자간 조정은 주로 letter-spacing)
+
+#### 2-5. box와 inline 
+block에는 div, h1, p 등이 있고 inline에는 span, label 등이 있다. 
+- block은 세로로 정렬된다.
+- inline은 가로로 정렬된다.
+- block은 높이와 너비를 가질 수 있지만 inline은 가질 수 없다. <br>
+<mark>➡ inline은 padding은 지정할 수 있지만 위, 아래 margin은 가질 수 없다.</mark> <br>
+~> 만약 inline에 마진을 지정하고 싶다면 display를 사용해 block으로 변경해야 한다.
+
+- box와 콘텐츠 사이의 간격을 margin이라 한다.
+- border: 박스의 테두리
+- margin: box와 경계 사이 공간
+- padding: box와 콘텐츠 사이의 간격
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcI9Fp8%2FbtsEdWFlPKE%2Fiml4WdOGfzLSyVoWKcDGyK%2Fimg.png" width="200" height="200"/>
+
+#### 2-6. Layout
+- display 속성을 사용해 inline을 block으로, block을 inline으로 바꿀 수 있다.
+```
+display: inline-block;
+```
+을 지정해준다면 inline과 block 요소를 둘 다 가질 수 있게 된다.
+하지만 잘 사용하지는 않는다.
