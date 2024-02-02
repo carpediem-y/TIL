@@ -114,3 +114,29 @@ display: inline-block;
 ```
 을 지정해준다면 inline과 block 요소를 둘 다 가질 수 있게 된다.
 하지만 잘 사용하지는 않는다.
+- block 요소를 움직이게 하고 싶다면 부모 요소를 flex container로 만들어 주면 된다.
+```
+ex.
+<div>를 움직이고 싶다면 body에 display: flex; 를 지정하면 됨
+
+<style>
+  body { display: flex; }
+</style>
+
+<body>
+  <div></div>
+</body>
+```
+- justify-content는 수평이고, align-items는 수직이다.
+```
+수평 이동을 하고 싶다면
+justify-content: center; 
+
+수직 이동을 하고 싶다면
+align-items: center;
+
+이런식으로 지정해주면 된다.
+```
+<mark>justify-content와 align-items를 적용하고 싶다면 display: flex를 먼저 지정해줘야 함!
+
+- flex direction: ~를 추가하면 주축을 바꿀 수 있다. (default: row ↔️ column)
