@@ -177,3 +177,37 @@ p 태그 안 span 태그를 변경하고 싶을 때 사용
 
 - 가상 클래스를 이용해 지정해줄 수 있다.
   (nth-child(), hover 등)
+
+#### 2-8. 변형
+
+1. transform
+   변형을 적용하기 위해 transform을 사용함
+   transform: translate(tx,ty) 꼴임
+
+<2차원>
+
+- transform (tx,ty): x축, y축으로 이동
+- scale (sx,sy): x축, y축으로 확대
+- rotate(각도): 각도만큼 회전
+- skew (ax,ay): 지정 각도만큼 x축 y축 왜곡 (비틀기)
+
+3차원은 z를 추가하면 됨
+
+2. transition
+   시간에 따라 스타일 속성을 변경할때 사용
+
+- transition-property: 대상설정
+- transition-duration: 실행 시간 지정
+- transition-timing-function: 실행 형태 지정
+- transition-delay: 지연 시간 설정
+  위의 것을 합쳐 transition으로 한꺼번에 선언 가능
+
+3. animation
+   @keyframes 이름 {
+   selector {
+
+}
+} 형식이다.
+
+animation도 trasition처럼
+animation (name, duration, timing-function, delay, iteration-count, direction)을 한꺼번에 선언할 수 있다.
